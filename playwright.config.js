@@ -19,7 +19,7 @@ export default defineConfig(
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use:
   {
-    headless: false,
+    headless: true,
     baseURL: process.env.BASE_URL || 'https://react-shopping-cart-67954.firebaseapp.com/products',
     trace: 'on-first-retry',
   },

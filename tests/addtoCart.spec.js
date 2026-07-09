@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 import { HomePage } from '../pages/Homepage.js';
-import productData from '../test-data/productData.json';
+import productData from '../test-data/productData.json' with { type: 'json' };
 
 let homePage;
 
