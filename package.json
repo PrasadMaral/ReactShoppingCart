@@ -1,0 +1,32 @@
+{
+  "name": "reactshoppingcart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "playwright.config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "playwright": "^1.61.1",
+    "playwright-core": "^1.61.1",
+    "undici-types": "^8.3.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.61.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrasadMaral/ReactShoppingCart.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/PrasadMaral/ReactShoppingCart/issues"
+  },
+  "homepage": "https://github.com/PrasadMaral/ReactShoppingCart#readme"
+}
