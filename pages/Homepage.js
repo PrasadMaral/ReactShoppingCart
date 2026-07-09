@@ -14,7 +14,7 @@ export class HomePage
 
     async navigate()
     {
-        await this.page.goto('https://react-shopping-cart-67954.firebaseapp.com/products', { waitUntil: 'domcontentloaded', timeout: 30000 });
+        await this.page.goto('/', { waitUntil: 'domcontentloaded', timeout: 30000 });
         await this.page.waitForLoadState('networkidle').catch(() => {});
     }
 

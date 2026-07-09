@@ -1,9 +1,11 @@
-name: Playwright Tests
+name: React Shopping Cart Pipeline
+env: 
+  BASE_URL: https://react-shopping-cart-67954.firebaseapp.com/products
 on:
   push:
-    branches: [ main, master ]
+    branches: [ main ]
   pull_request:
-    branches: [ main, master ]
+    branches: [ main ]
 jobs:
   test:
     timeout-minutes: 60
