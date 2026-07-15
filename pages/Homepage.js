@@ -4,9 +4,6 @@ export class HomePage
     {
         this.page = page;
         this.cartButton = page.locator('button').filter({ hasText: 'Cart' }).first();
-        this.cartCount = page.locator('body');
-        this.sizeCheckboxes = page.locator('input[type="checkbox"][data-testid="checkbox"]');
-        this.productCount = page.locator('p').filter({ hasText: /Product\(s\) found/i }).first();
         this.closeCartButton = page.locator('button').filter({ hasText: 'X' }).first();
         this.productCards = page.locator("div[tabindex='1']");
         this.cartDrawer = page.locator('div').filter({ hasText: 'SUBTOTAL' }).filter({ hasText: 'Cart' }).first();
