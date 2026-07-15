@@ -15,6 +15,7 @@ export class HomePage
     async navigate()
     {
         await this.page.goto('/', { waitUntil: 'domcontentloaded', timeout: 30000 });
+        await this.productCards.first().waitFor({state: 'visible'});
     }
 
     async openCart()
